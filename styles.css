@@ -1,0 +1,80 @@
+table, tr, td{
+    border: black 1px solid; 
+    border-collapse: collapse; 
+}
+
+.table2 {
+    width: 100px;
+    height: 35px;
+}
+
+td {
+    width: 35px;
+    height: 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    margin-left: 100px;
+    margin-right: auto;   
+}
+
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.column1 {
+    float: left;
+    margin-left: 190px;
+    padding: 5px;
+}
+
+.column2 {
+    float: right;
+    margin-right: 30%;
+    padding: 5px;
+}
+
+.center{
+    text-align: center;
+}
+
+button {
+    margin-left: 195px;
+}
+
+.shift_pos {
+    margin-left: auto;
+}
+
+.yellowCells {
+    border: black 1px solid; 
+    border-collapse: collapse; 
+}
+
+.blackCells {
+    border: black 1px solid; 
+    border-collapse: collapse; 
+}
+
+.orangeCells {
+    border: black 1px solid; 
+    border-collapse: collapse; 
+}
+
+p {
+    margin: 0;
+    margin-left: 90px;
+    display: inline-block;
+}
+
+.colorTab {
+    margin-right: 13px;
+    float: right;
+}
+

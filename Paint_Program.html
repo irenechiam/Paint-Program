@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Project</title>
+    <script src="mini-projectjs.js"></script> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>My Paint Program</h1>
+    <div class="row">
+        <div class="column1">
+            <table id="paintTable" class="gradientTable">
+                <tr id="row1">
+                    <td id="r1c1" onclick="changeColor('r1c1')"></td>
+                    <td id="r1c2" onclick="changeColor('r1c2')"></td>
+                    <td id="r1c3" onclick="changeColor('r1c3')"></td>
+                    <td id="r1c4" onclick="changeColor('r1c4')"></td>
+                    <td id="r1c5" onclick="changeColor('r1c5')"></td>
+                    <td id="r1c6" onclick="changeColor('r1c6')"></td>
+                    <td id="r1c7" onclick="changeColor('r1c7')"></td>
+                    <td id="r1c8" onclick="changeColor('r1c8')"></td>
+                    <td id="r1c9" onclick="changeColor('r1c9')"></td>
+                    <td id="r1c10" onclick="changeColor('r1c10')"></td>
+                    <td id="r1c11" onclick="changeColor('r1c11')"></td>
+                    <td id="r1c12" onclick="changeColor('r1c12')"></td>
+                    <td id="r1c13" onclick="changeColor('r1c13')"></td>
+                    <td id="r1c14" onclick="changeColor('r1c14')"></td>
+                    <td id="r1c15" onclick="changeColor('r1c15')"></td>
+                    <td id="r1c16" onclick="changeColor('r1c16')"></td>
+                </tr>
+                <tr id="row2">
+                    <td id="r2c1" onclick="changeColor('r2c1')"></td>
+                    <td id="r2c2" onclick="changeColor('r2c2')"></td>
+                    <td id="r2c3" onclick="changeColor('r2c3')"></td>
+                    <td id="r2c4" onclick="changeColor('r2c4')"></td>
+                    <td id="r2c5" onclick="changeColor('r2c5')"></td>
+                    <td id='r2c6' onclick="changeColor('r2c6')"></td>
+                    <td id='r2c7' onclick="changeColor('r2c7')"></td>
+                    <td id='r2c8' class="yellowCells" onclick="changeColor('r2c8')"></td>
+                    <td id='r2c9' class="yellowCells" onclick="changeColor('r2c9')"></td>
+                    <td id='r2c10' class="yellowCells" onclick="changeColor('r2c10')"></td>
+                    <td id='r2c11' onclick="changeColor('r2c11')"></td>
+                    <td id='r2c12' onclick="changeColor('r2c12')"></td>
+                    <td id='r2c13' onclick="changeColor('r2c13')"></td>
+                    <td id='r2c14' onclick="changeColor('r2c14')"></td>
+                    <td id='r2c15' onclick="changeColor('r2c15')"></td>
+                    <td id='r2c16' onclick="changeColor('r2c16')"></td>
+                </tr>
+                <tr id="row3">
+                    <td id='r3c1' onclick="changeColor('r3c1')"></td>
+                    <td id='r3c2' onclick="changeColor('r3c2')"></td>
+                    <td id='r3c3' onclick="changeColor('r3c3')"></td>
+                    <td id='r3c4' onclick="changeColor('r3c4')"></td>
+                    <td id='r3c5' onclick="changeColor('r3c5')"></td>
+                    <td id='r3c6' onclick="changeColor('r3c6')"></td>
+                    <td id='r3c7' class="yellowCells" onclick="changeColor('r3c7')"></td>
+                    <td id='r3c8' class="yellowCells" onclick="changeColor('r3c8')"></td>
+                    <td id='r3c9' class="yellowCells" onclick="changeColor('r3c9')"></td>
+                    <td id='r3c10' class="yellowCells" onclick="changeColor('r3c10')"></td>
+                    <td id='r3c11' class="yellowCells" onclick="changeColor('r3c11')"></td>
+                    <td id='r3c12' onclick="changeColor('r3c12')"></td>
+                    <td id='r3c13' onclick="changeColor('r3c13')"></td>
+                    <td id='r3c14' onclick="changeColor('r3c14')"></td>
+                    <td id='r3c15' onclick="changeColor('r3c15')"></td>
+                    <td id='r3c16' onclick="changeColor('r3c16')"></td>
+                </tr>
+                <tr id="row4">
+                    <td id='r4c1' onclick="changeColor('r4c1')"></td>
+                    <td id='r4c2' onclick="changeColor('r4c2')"></td>
+                    <td id='r4c3' onclick="changeColor('r4c3')"></td>
+                    <td id='r4c4' onclick="changeColor('r4c4')"></td>
+                    <td id='r4c5' onclick="changeColor('r4c5')"></td>
+                    <td id='r4c6' onclick="changeColor('r4c6')"></td>
+                    <td id='r4c7' class="yellowCells" onclick="changeColor('r4c7')"></td>
+                    <td id='r4c8' class="yellowCells" onclick="changeColor('r4c8')"></td>
+                    <td id='r4c9' class="yellowCells" onclick="changeColor('r4c9')"></td>
+                    <td id='r4c10' class="blackCells" onclick="changeColor('r4c10')"></td>
+                    <td id='r4c11' class="yellowCells" onclick="changeColor('r4c11')"></td>
+                    <td id='r4c12' class="orangeCells" onclick="changeColor('r4c12')"></td>
+                    <td id='r4c13' class="orangeCells" onclick="changeColor('r4c13')"></td>
+                    <td id='r4c14' onclick="changeColor('r4c14')"></td>
+                    <td id='r4c15' onclick="changeColor('r4c15')"></td>
+                    <td id='r4c16' onclick="changeColor('r4c16')"></td>
+                </tr>
+                <tr id="row5">
+                    <td id='r5c1' onclick="changeColor('r5c1')"></td>
+                    <td id='r5c2' onclick="changeColor('r5c2')"></td>
+                    <td id='r5c3' onclick="changeColor('r5c3')"></td>
+                    <td id='r5c4' onclick="changeColor('r5c4')"></td>
+                    <td id='r5c5' onclick="changeColor('r5c5')"></td>
+                    <td id='r5c6' onclick="changeColor('r5c6')"></td>
+                    <td id='r5c7' class="yellowCells" onclick="changeColor('r5c7')"></td>
+                    <td id='r5c8' class="yellowCells" onclick="changeColor('r5c8')"></td>
+                    <td id='r5c9' class="yellowCells" onclick="changeColor('r5c9')"></td>
+                    <td id='r5c10' class="yellowCells" onclick="changeColor('r5c10')"></td>
+                    <td id='r5c11' class="yellowCells" onclick="changeColor('r5c11')"></td>
+                    <td id='r5c12' class="orangeCells" onclick="changeColor('r5c12')"></td>
+                    <td id='r5c13' onclick="changeColor('r5c13')"></td>
+                    <td id='r5c14' onclick="changeColor('r5c14')"></td>
+                    <td id='r5c15' onclick="changeColor('r5c15')"></td>
+                    <td id='r5c16' onclick="changeColor('r5c16')"></td>
+                </tr>
+                <tr id="row6">
+                    <td id='r6c1' onclick="changeColor('r6c1')"></td>
+                    <td id='r6c2' onclick="changeColor('r6c2')"></td>
+                    <td id='r6c3' onclick="changeColor('r6c3')"></td>
+                    <td id='r6c4' onclick="changeColor('r6c4')"></td>
+                    <td id='r6c5' onclick="changeColor('r6c5')"></td>
+                    <td id='r6c6' onclick="changeColor('r6c6')"></td>
+                    <td id='r6c7' onclick="changeColor('r6c7')"></td>
+                    <td id='r6c8' class="yellowCells" onclick="changeColor('r6c8')"></td>
+                    <td id='r6c9' class="yellowCells" onclick="changeColor('r6c9')"></td>
+                    <td id='r6c10' class="yellowCells" onclick="changeColor('r6c10')"></td>
+                    <td id='r6c11' onclick="changeColor('r6c11')"></td>
+                    <td id='r6c12' onclick="changeColor('r6c12')"></td>
+                    <td id='r6c13' onclick="changeColor('r6c13')"></td>
+                    <td id='r6c14' onclick="changeColor('r6c14')"></td>
+                    <td id='r6c15' onclick="changeColor('r6c15')"></td>
+                    <td id='r6c16' onclick="changeColor('r6c16')"></td>
+                </tr>
+                <tr id="row7">
+                    <td id='r7c1' onclick="changeColor('r7c1')"></td>
+                    <td id='r7c2' onclick="changeColor('r7c2')"></td>
+                    <td id='r7c3' onclick="changeColor('r7c3')"></td>
+                    <td id='r7c4' onclick="changeColor('r7c4')"></td>
+                    <td id='r7c5' onclick="changeColor('r7c5')"></td>
+                    <td id='r7c6' onclick="changeColor('r7c6')"></td>
+                    <td id='r7c7' class="yellowCells" onclick="changeColor('r7c7')"></td>
+                    <td id='r7c8' class="yellowCells" onclick="changeColor('r7c8')"></td>
+                    <td id='r7c9' class="yellowCells" onclick="changeColor('r7c9')"></td>
+                    <td id='r7c10' class="yellowCells" onclick="changeColor('r7c10')"></td>
+                    <td id='r7c11' class="yellowCells" onclick="changeColor('r7c11')"></td>
+                    <td id='r7c12' onclick="changeColor('r7c12')"></td>
+                    <td id='r7c13' onclick="changeColor('r7c13')"></td>
+                    <td id='r7c14' onclick="changeColor('r7c14')"></td>
+                    <td id='r7c15' onclick="changeColor('r7c15')"></td>
+                    <td id='r7c16' onclick="changeColor('r7c16')"></td>
+                </tr>
+                <tr id="row8">
+                    <td id='r8c1' onclick="changeColor('r8c1')"></td>
+                    <td id='r8c2' onclick="changeColor('r8c2')"></td>
+                    <td id='r8c3' onclick="changeColor('r8c3')"></td>
+                    <td id='r8c4' onclick="changeColor('r8c4')"></td>
+                    <td id='r8c5' class="orangeCells" onclick="changeColor('r8c5')"></td>
+                    <td id='r8c6' class="orangeCells" onclick="changeColor('r8c6')"></td>
+                    <td id='r8c7' class="orangeCells" onclick="changeColor('r8c7')"></td>
+                    <td id='r8c8' class="orangeCells" onclick="changeColor('r8c8')"></td>
+                    <td id='r8c9' class="orangeCells" onclick="changeColor('r8c9')"></td>
+                    <td id='r8c10' class="yellowCells" onclick="changeColor('r8c10')"></td>
+                    <td id='r8c11' class="yellowCells" onclick="changeColor('r8c11')"></td>
+                    <td id='r8c12' class="yellowCells" onclick="changeColor('r8c12')"></td>
+                    <td id='r8c13' onclick="changeColor('r8c13')"></td>
+                    <td id='r8c14' onclick="changeColor('r8c14')"></td>
+                    <td id='r8c15' onclick="changeColor('r8c15')"></td>
+                    <td id='r8c16' onclick="changeColor('r8c16')"></td>
+                </tr>
+                <tr id="row9">
+                    <td id='r9c1' onclick="changeColor('r9c1')"></td>
+                    <td id='r9c2' onclick="changeColor('r9c2')"></td>
+                    <td id='r9c3' onclick="changeColor('r9c3')"></td>
+                    <td id='r9c4' class="yellowCells" onclick="changeColor('r9c4')"></td>
+                    <td id='r9c5' class="yellowCells" onclick="changeColor('r9c5')"></td>
+                    <td id='r9c6' class="orangeCells" onclick="changeColor('r9c6')"></td>
+                    <td id='r9c7' class="orangeCells" onclick="changeColor('r9c7')"></td>
+                    <td id='r9c8' class="orangeCells" onclick="changeColor('r9c8')"></td>
+                    <td id='r9c9' class="orangeCells" onclick="changeColor('r9c9')"></td>
+                    <td id='r9c10' class="yellowCells" onclick="changeColor('r9c10')"></td>
+                    <td id='r9c11' class="yellowCells" onclick="changeColor('r9c11')"></td>
+                    <td id='r9c12' class="yellowCells" onclick="changeColor('r9c12')"></td>
+                    <td id='r9c13' onclick="changeColor('r9c13')"></td>
+                    <td id='r9c14' onclick="changeColor('r9c14')"></td>
+                    <td id='r9c15' onclick="changeColor('r9c15')"></td>
+                    <td id='r9c16' onclick="changeColor('r9c16')"></td>
+                </tr>
+                <tr id="row10">
+                    <td id='r10c1' onclick="changeColor('r10c1')"></td>
+                    <td id='r10c2' onclick="changeColor('r10c2')"></td>
+                    <td id='r10c3' onclick="changeColor('r10c3')"></td>
+                    <td id='r10c4' onclick="changeColor('r10c4')"></td>
+                    <td id='r10c5' class="yellowCells" onclick="changeColor('r10c5')"></td>
+                    <td id='r10c6' class="yellowCells" onclick="changeColor('r10c6')"></td>
+                    <td id='r10c7' class="orangeCells" onclick="changeColor('r10c7')"></td>
+                    <td id='r10c8' class="orangeCells" onclick="changeColor('r10c8')"></td>
+                    <td id='r10c9' class="yellowCells" onclick="changeColor('r10c9')"></td>
+                    <td id='r10c10' class="yellowCells" onclick="changeColor('r10c10')"></td>
+                    <td id='r10c11' class="yellowCells" onclick="changeColor('r10c11')"></td>
+                    <td id='r10c12' class="yellowCells" onclick="changeColor('r10c12')"></td>
+                    <td id='r10c13' onclick="changeColor('r10c13')"></td>
+                    <td id='r10c14' onclick="changeColor('r10c14')"></td>
+                    <td id='r10c15' onclick="changeColor('r10c15')"></td>
+                    <td id='r10c16' onclick="changeColor('r10c16')"></td>
+                </tr>
+                <tr id="row11">
+                    <td id='r11c1' onclick="changeColor('r11c1')"></td>
+                    <td id='r11c2' onclick="changeColor('r11c2')"></td>
+                    <td id='r11c3' onclick="changeColor('r11c3')"></td>
+                    <td id='r11c4' onclick="changeColor('r11c4')"></td>
+                    <td id='r11c5' onclick="changeColor('r11c5')"></td>
+                    <td id='r11c6' class="yellowCells" onclick="changeColor('r11c6')"></td>
+                    <td id='r11c7' class="yellowCells" onclick="changeColor('r11c7')"></td>
+                    <td id='r11c8' class="yellowCells" onclick="changeColor('r11c8')"></td>
+                    <td id='r11c9' class="yellowCells" onclick="changeColor('r11c9')"></td>
+                    <td id='r11c10' class="yellowCells" onclick="changeColor('r11c10')"></td>
+                    <td id='r11c11' class="yellowCells" onclick="changeColor('r11c11')"></td>
+                    <td id='r11c12' onclick="changeColor('r11c12')"></td>
+                    <td id='r11c13' onclick="changeColor('r11c13')"></td>
+                    <td id='r11c14' onclick="changeColor('r11c14')"></td>
+                    <td id='r11c15' onclick="changeColor('r11c15')"></td>
+                    <td id='r11c16' onclick="changeColor('r11c16')"></td>
+                </tr>
+                <tr id="row12">
+                    <td id='r12c1' onclick="changeColor('r12c1')"></td>
+                    <td id='r12c2' onclick="changeColor('r12c2')"></td>
+                    <td id='r12c3' onclick="changeColor('r12c3')"></td>
+                    <td id='r12c4' onclick="changeColor('r12c4')"></td>
+                    <td id='r12c5' onclick="changeColor('r12c5')"></td>
+                    <td id='r12c6' onclick="changeColor('r12c6')"></td>
+                    <td id='r12c7' class="yellowCells" onclick="changeColor('r12c7')"></td>
+                    <td id='r12c8' class="yellowCells" onclick="changeColor('r12c8')"></td>
+                    <td id='r12c9' class="yellowCells" onclick="changeColor('r12c9')"></td>
+                    <td id='r12c10' class="yellowCells" onclick="changeColor('r12c10')"></td>
+                    <td id='r12c11' onclick="changeColor('r12c11')"></td>
+                    <td id='r12c12' onclick="changeColor('r12c12')"></td>
+                    <td id='r12c13' onclick="changeColor('r12c13')"></td>
+                    <td id='r12c14' onclick="changeColor('r12c14')"></td>
+                    <td id='r12c15' onclick="changeColor('r12c15')"></td>
+                    <td id='r12c16' onclick="changeColor('r12c16')"></td>
+                </tr>
+                <tr id="row13"> 
+                    <td id='r13c1' onclick="changeColor('r13c1')"></td>
+                    <td id='r13c2' onclick="changeColor('r13c2')"></td>
+                    <td id='r13c3' onclick="changeColor('r13c3')"></td>
+                    <td id='r13c4' onclick="changeColor('r13c4')"></td>
+                    <td id='r13c5' onclick="changeColor('r13c5')"></td>
+                    <td id='r13c6' onclick="changeColor('r13c6')"></td>
+                    <td id='r13c7' onclick="changeColor('r13c7')"></td>
+                    <td id='r13c8' class="orangeCells" onclick="changeColor('r13c8')"></td>
+                    <td id='r13c9' onclick="changeColor('r13c9')"></td>
+                    <td id='r13c10' onclick="changeColor('r13c10')"></td>
+                    <td id='r13c11' onclick="changeColor('r13c11')"></td>
+                    <td id='r13c12' onclick="changeColor('r13c12')"></td>
+                    <td id='r13c13' onclick="changeColor('r13c13')"></td>
+                    <td id='r13c14' onclick="changeColor('r13c14')"></td>
+                    <td id='r13c15' onclick="changeColor('r13c15')"></td>
+                    <td id='r13c16'onclick="changeColor('r13c16')"></td>
+                </tr>
+                <tr id="row14">
+                    <td id='r14c1' onclick="changeColor('r14c1')"></td>
+                    <td id='r14c2' onclick="changeColor('r14c2')"></td>
+                    <td id='r14c3' onclick="changeColor('r14c3')"></td>
+                    <td id='r14c4' onclick="changeColor('r14c4')"></td>
+                    <td id='r14c5' onclick="changeColor('r14c5')"></td>
+                    <td id='r14c6' onclick="changeColor('r14c6')"></td>
+                    <td id='r14c7' class="orangeCells" onclick="changeColor('r14c7')"></td>
+                    <td id='r14c8' class="orangeCells" onclick="changeColor('r14c8')"></td>
+                    <td id='r14c9' class="orangeCells" onclick="changeColor('r14c9')"></td>
+                    <td id='r14c10' class="orangeCells" onclick="changeColor('r14c10')"></td>
+                    <td id='r14c11' onclick="changeColor('r14c11')"></td>
+                    <td id='r14c12' onclick="changeColor('r14c12')"></td>
+                    <td id='r14c13' onclick="changeColor('r14c13')"></td>
+                    <td id='r14c14' onclick="changeColor('r14c14')"></td>
+                    <td id='r14c15' onclick="changeColor('r14c15')"></td>
+                    <td id='r14c16' onclick="changeColor('r14c16')"></td>
+                </tr>
+                <tr id="row15">
+                    <td id='r15c1' onclick="changeColor('r15c1')"></td>
+                    <td id='r15c2' onclick="changeColor('r15c2')"></td>
+                    <td id='r15c3' onclick="changeColor('r15c3')"></td>
+                    <td id='r15c4' onclick="changeColor('r15c4')"></td>
+                    <td id='r15c5' onclick="changeColor('r15c5')"></td>
+                    <td id='r15c6' onclick="changeColor('r15c6')"></td>
+                    <td id='r15c7' onclick="changeColor('r15c7')"></td>
+                    <td id='r15c8' onclick="changeColor('r15c8')"></td>
+                    <td id='r15c9' onclick="changeColor('r15c9')"></td>
+                    <td id='r15c10' onclick="changeColor('r15c10')"></td>
+                    <td id='r15c11' onclick="changeColor('r15c11')"></td>
+                    <td id='r15c12' onclick="changeColor('r15c12')"></td>
+                    <td id='r15c13' onclick="changeColor('r15c13')"></td>
+                    <td id='r15c14' onclick="changeColor('r15c14')"></td>
+                    <td id='r15c15' onclick="changeColor('r15c15')"></td>
+                    <td id='r15c16' onclick="changeColor('r15c16')"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="column2">
+            <table id="colors" class="table2">
+                <tr>
+                    <td id="c1" class="center" style="background-color:black; color: white;" onclick="pickColor('c1')">Black</td>
+                </tr>
+                <tr>
+                    <td id="c2" class="center" style="background-color:silver" onclick="pickColor('c2')">Silver</td>
+                </tr>
+                <tr>
+                    <td id="c3" class="center" style="background-color: grey;" onclick="pickColor('c3')">Grey</td>
+                </tr>
+                <tr>
+                    <td id="c4" class="center" style="background-color: white" onclick="pickColor('c4')">White</td>
+                </tr>
+                <tr>
+                    <td id="c5" class="center" style="background-color: orange" onclick="pickColor('c5')">Orange</td>
+                </tr>
+                <tr>
+                    <td id="c6" class="center" style="background-color:red" onclick ="pickColor('c6')">Red</td>
+                </tr>
+                <tr>
+                    <td id="c7" class="center" style="background-color: purple" onclick="pickColor('c7')">Purple</td>
+                </tr>
+                <tr>
+                    <td id="c8" class="center" style="background-color: fuchsia" onclick="pickColor('c8')">Fuschia</td>
+                </tr>
+                <tr>
+                    <td id="c9" class="center" style="background-color: green" onclick="pickColor('c9')">Green</td>
+                </tr>
+                <tr>
+                    <td id="c10" class="center" style="background-color:lime" onclick="pickColor('c10')">Lime</td>
+                </tr>
+                <tr>
+                    <td id="c11" class="center" style="background-color:olive" onclick="pickColor('c11')">Olive</td>
+                </tr>
+                <tr>
+                    <td id="c12" class="center" style="background-color: yellow" onclick="pickColor('c12')">Yellow</td>
+                </tr>
+                <tr>
+                    <td id="c13" class="center" style="background-color: navy" onclick="pickColor('c13')">Navy</td>
+                </tr>
+                <tr>
+                    <td id="c14" class="center" style="background-color: blue" onclick="pickColor('c14')">Blue</td>
+                </tr>
+                <tr>
+                    <td id="c15" class="center" style="background-color: teal" onclick="pickColor('c15')">Teal</td>
+                </tr>
+                <tr>
+                    <td id="c16" class="center" style="background-color: aqua" onclick="pickColor('c16')">Aqua</td>
+                </tr>
+            </table>
+        </div>
+        <button type="button" onclick="reset()">Clear</button>
+        <button type="button" class="shift_pos" onclick="shiftLeft()">Shift Left</button>
+        <button type="button" class="shift_pos" onclick="shiftRight()">Shift Right</button>
+        <button type="button" class="shift_pos" onclick="fillColor()">Fill</button>
+        <button type="button" class="shift_pos" onclick="randomGenerate()">Random</button>
+        <button type="button" class="shift_pos" onclick="duck()">Duck</button>
+        <p>Color Selected: </p>
+        <table id="selectedColor" class="colorTab"><td></td></table>
+    </div>
+</body>
+</html>
